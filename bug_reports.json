@@ -21,7 +21,7 @@
   "Steps to reproduce":
   {
     "1":"Add one or more products to the cart",
-    "2":"Click the "View cart" link on top of the page, or click "Continue to Shipping" in the checkout details page",
+    "2":"Click the View cart link on top of the page, or click Continue to Shipping in the checkout details page",
   },
   "Expected result":"The grand total is equal to the sum of all products in the cart",
   "Actual result":"The grand total is $100 more than the sum of all products in the cart"
@@ -33,9 +33,9 @@
   "Steps to reproduce":
   {
     "1":"Add one or more products to the cart",
-    "2":"Click the "View cart" link on top of the page",
+    "2":"Click the View cart ink on top of the page",
     "3":"Set the products quantity to 3 or more",
-    "4":"Click "update" below"
+    "4":"Click update below"
   },
   "Expected result":"The product quantity can be increased past 2",
   "Actual result":"When clicking on the update button the product quantity becomes 2 again"
