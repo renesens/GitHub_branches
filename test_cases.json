@@ -11,3 +11,47 @@
   },
   "Expected result":"Total price should reflect to the quantity of the product"
 }
+{
+  "TestCase_id":"2",
+  "Title":"The currency should be changed as expected",
+  "Steps":
+  {
+    "1":"Open a product",
+    "2":"Change the currency in the right side menu"
+  },
+  "Expected result":"The currency is changed as expected"
+}
+{
+  "TestCase_id":"3",
+  "Title":"The total price should reflect the removing product from the Cart",
+  "Precondition":"Given user is on the Cart page",
+  "Steps":
+  {
+    "1":"There is at least one item in the Cart",
+    "2":"User deletes the product from the Cart"
+  },
+  "Expected result":"The Total price should reflect to the changes"
+},
+{
+  "TestCase_id":"4",
+  "Title":"User should be able to navigate back to the Cart by clicking the Edit Cart link",
+  "Precondition":"Given user is on the Checkout page",
+  "Steps":
+  {
+    "1":"When user clicks the Edit Cart link"
+  },
+  "Expected result":"The Cart page should be opened"
+},
+{
+    "TestCase_id":"5",
+    "Title":"A list of products in the selected price range is shown",
+    "Steps":
+    {
+      "1":"Open a product",
+      "2":"On the right side menu find the Filter by Price section",
+  "3":"Select any of the price ranges",
+  "4":"Also open any item from the right side Store Menu and select the price ranges on the right side menu"
+
+    },
+    "Expected result":"A list of products in the selected price range is shown"
+}
