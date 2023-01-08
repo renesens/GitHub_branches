@@ -28,7 +28,7 @@
   "Steps":
   {
     "1":"There is at least one item in the Cart",
-    "2":"User deletes the product from the Cart"
+    "2":"Deletes the product from the Cart"
   },
   "Expected result":"The Total price should reflect to the changes"
 },
@@ -38,7 +38,7 @@
   "Precondition":"Given user is on the Checkout page",
   "Steps":
   {
-    "1":"When user clicks the Edit Cart link"
+    "1":"Clicks the Edit Cart link"
   },
   "Expected result":"The Cart page should be opened"
 },
@@ -49,8 +49,8 @@
     {
       "1":"Open a product",
       "2":"On the right side menu find the Filter by Price section",
-  "3":"Select any of the price ranges",
-  "4":"Also open any item from the right side Store Menu and select the price ranges on the right side menu"
+      "3":"Select any of the price ranges",
+      "4":"Also open any item from the right side Store Menu and select the price ranges on the right side menu"
 
     },
     "Expected result":"A list of products in the selected price range is shown"
